@@ -1,0 +1,78 @@
+<!--定义pom.xml的语法版本和命名空间-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+<!--项目信息-->
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>analyzer</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+
+<!--依赖管理-->
+    <dependencies>
+<!--        JavaParser：这个是整个项目的核心-->
+        <dependency>
+            <groupId>com.github.javaparser</groupId>
+            <artifactId>javaparser-core</artifactId>
+            <version>3.25.4</version>
+        </dependency>
+<!--        处理json文件的依赖-->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+
+    </dependencies>
+
+
+<!--    配置插件，这样方便后面运行程序-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>${exec.mainClass}</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>run-main</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <exec.mainClass>analyzer.Main</exec.mainClass>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>run-all</id>
+            <properties>
+                <exec.mainClass>analyzer.RunAll</exec.mainClass>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>run-target</id>
+            <properties>
+                <exec.mainClass>analyzer.TargetMethod</exec.mainClass>
+            </properties>
+        </profile>
+    </profiles>
+</project>

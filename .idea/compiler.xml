@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="examples-sofm-tsp" />
+        <module name="commons-math4-neuralnet" />
+        <module name="examples-kmeans-image" />
+        <module name="commons-math-docs" />
+        <module name="commons-math4-transform" />
+        <module name="commons-math4-legacy-exception" />
+        <module name="commons-math4-legacy" />
+        <module name="examples-sofm-chinese-rings" />
+        <module name="commons-math4-legacy-core" />
+        <module name="commons-math4-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons-cli" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commons-cli" options="-proc:none" />
+      <module name="commons-math-docs" options="-Xlint:all,-options,-path" />
+      <module name="commons-math-examples" options="-Xlint:all,-options,-path" />
+      <module name="commons-math4-core" options="-Xlint:all,-options,-path" />
+      <module name="commons-math4-legacy" options="-Xlint:all,-options,-path" />
+      <module name="commons-math4-legacy-core" options="-Xlint:all,-options,-path" />
+      <module name="commons-math4-legacy-exception" options="-Xlint:all,-options,-path" />
+      <module name="commons-math4-neuralnet" options="-Xlint:all,-options,-path" />
+      <module name="commons-math4-parent" options="-Xlint:all,-options,-path" />
+      <module name="commons-math4-transform" options="-Xlint:all,-options,-path" />
+      <module name="examples-kmeans" options="-Xlint:all,-options,-path" />
+      <module name="examples-kmeans-image" options="-Xlint:all,-options,-path" />
+      <module name="examples-sofm" options="-Xlint:all,-options,-path" />
+      <module name="examples-sofm-chinese-rings" options="-Xlint:all,-options,-path" />
+      <module name="examples-sofm-tsp" options="-Xlint:all,-options,-path" />
+    </option>
+  </component>
+</project>

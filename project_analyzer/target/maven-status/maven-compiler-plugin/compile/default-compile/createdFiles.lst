@@ -1,0 +1,10 @@
+analyzer\RunAll.class
+analyzer\Main.class
+analyzer\Metric.class
+analyzer\RunAll$TeeOutputStream.class
+analyzer\SourceRoots.class
+analyzer\Method.class
+analyzer\TargetMethod$jsonFormat.class
+analyzer\TargetMethod.class
+analyzer\Dependency.class
+analyzer\Class_Interface.class

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/java_project/commons-cli" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-cli/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-cli/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-docs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-docs/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-docs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-kmeans" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-kmeans/image" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-kmeans/image/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-kmeans/image/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-kmeans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-kmeans/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-sofm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-sofm/chinese-rings" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-sofm/chinese-rings/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-sofm/chinese-rings/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-sofm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-sofm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-sofm/tsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-sofm/tsp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/examples-sofm/tsp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-examples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-legacy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-legacy-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-legacy-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-legacy-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-legacy-exception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-legacy-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-legacy-exception/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-legacy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-legacy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-neuralnet" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-neuralnet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-neuralnet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-transform" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-transform/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/commons-math-transform/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_project/commons-math/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

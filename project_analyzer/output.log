@@ -1,0 +1,730 @@
+类/接口汇总
+类型         | 包路径                                      | 名称
+-------------------------------------------------------------
+
+================== 分析项目: commons-cli ==================
+
+Class      | org.apache.commons.cli                   | AlreadySelectedException
+Class      | org.apache.commons.cli                   | AmbiguousOptionException
+Class      | org.apache.commons.cli                   | BasicParser
+Class      | org.apache.commons.cli                   | Char
+Class      | org.apache.commons.cli                   | CommandLine
+Class      | org.apache.commons.cli                   | Builder
+Interface  | org.apache.commons.cli                   | CommandLineParser
+Interface  | org.apache.commons.cli                   | Converter
+Class      | org.apache.commons.cli                   | DefaultParser
+Class      | org.apache.commons.cli                   | Builder
+Class      | org.apache.commons.cli                   | DeprecatedAttributes
+Class      | org.apache.commons.cli                   | Builder
+Class      | org.apache.commons.cli                   | GnuParser
+Class      | org.apache.commons.cli.help              | AbstractHelpFormatter
+Class      | org.apache.commons.cli.help              | Builder
+Class      | org.apache.commons.cli.help              | FilterHelpAppendable
+Interface  | org.apache.commons.cli.help              | HelpAppendable
+Class      | org.apache.commons.cli.help              | HelpFormatter
+Class      | org.apache.commons.cli.help              | Builder
+Class      | org.apache.commons.cli.help              | OptionFormatter
+Class      | org.apache.commons.cli.help              | Builder
+Interface  | org.apache.commons.cli.help              | TableDefinition
+Class      | org.apache.commons.cli.help              | TextHelpAppendable
+Class      | org.apache.commons.cli.help              | TextStyle
+Class      | org.apache.commons.cli.help              | Builder
+Class      | org.apache.commons.cli.help              | Util
+Class      | org.apache.commons.cli                   | HelpFormatter
+Class      | org.apache.commons.cli                   | Builder
+Class      | org.apache.commons.cli                   | OptionComparator
+Class      | org.apache.commons.cli                   | MissingArgumentException
+Class      | org.apache.commons.cli                   | MissingOptionException
+Class      | org.apache.commons.cli                   | Option
+Class      | org.apache.commons.cli                   | Builder
+Class      | org.apache.commons.cli                   | OptionBuilder
+Class      | org.apache.commons.cli                   | OptionGroup
+Class      | org.apache.commons.cli                   | Options
+Class      | org.apache.commons.cli                   | OptionValidator
+Class      | org.apache.commons.cli                   | ParseException
+Class      | org.apache.commons.cli                   | Parser
+Class      | org.apache.commons.cli                   | PatternOptionBuilder
+Class      | org.apache.commons.cli                   | PosixParser
+Class      | org.apache.commons.cli                   | TypeHandler
+Class      | org.apache.commons.cli                   | UnrecognizedOptionException
+Class      | org.apache.commons.cli                   | Util
+
+================== 分析项目: commons-math ==================
+
+Class      | org.apache.commons.math4.userguide       | ClusterAlgorithmComparison
+Class      | org.apache.commons.math4.userguide       | Display
+Class      | org.apache.commons.math4.userguide       | ClusterPlot
+Class      | org.apache.commons.math4.userguide       | ExampleUtils
+Class      | org.apache.commons.math4.userguide       | ExampleFrame
+Class      | org.apache.commons.math4.userguide.filter | CannonballExample
+Class      | org.apache.commons.math4.userguide.filter | Cannonball
+Class      | org.apache.commons.math4.userguide.filter | Display
+Class      | org.apache.commons.math4.userguide.filter | ConstantVoltageExample
+Class      | org.apache.commons.math4.userguide.filter | VoltMeter
+Class      | org.apache.commons.math4.userguide.filter | Display
+Class      | org.apache.commons.math4.userguide.genetics | HelloWorldExample
+Class      | org.apache.commons.math4.userguide.genetics | StringChromosome
+Class      | org.apache.commons.math4.userguide.genetics | RandomCharacterMutation
+Class      | org.apache.commons.math4.userguide.genetics | ImageEvolutionExample
+Class      | org.apache.commons.math4.userguide.genetics | Display
+Class      | org.apache.commons.math4.userguide.genetics | ImagePainter
+Class      | org.apache.commons.math4.userguide.genetics | Polygon
+Class      | org.apache.commons.math4.userguide.genetics | PolygonChromosome
+Class      | org.apache.commons.math4.userguide.genetics | RandomPolygonMutation
+Class      | org.apache.commons.math4.userguide       | JdkMathTestPerformance
+Class      | org.apache.commons.math4.userguide       | LowDiscrepancyGeneratorComparison
+Class      | org.apache.commons.math4.userguide       | Display
+Class      | org.apache.commons.math4.userguide       | Plot
+Class      | org.apache.commons.math4.userguide       | PerfTestUtils
+Class      | org.apache.commons.math4.userguide       | RunTest
+
+方法统计
+类名                             | 方法名                            | 参数数   | 行数   
+----------------------------------------------------------------------
+
+================== 分析项目: commons-cli ==================
+
+AlreadySelectedException       | getOption                      | 0     | 3    
+AlreadySelectedException       | getOptionGroup                 | 0     | 3    
+AmbiguousOptionException       | createMessage                  | 2     | 18   
+AmbiguousOptionException       | getMatchingOptions             | 0     | 3    
+BasicParser                    | flatten                        | 3     | 6    
+CommandLine                    | builder                        | 0     | 3    
+CommandLine                    | addArg                         | 1     | 5    
+CommandLine                    | addOption                      | 1     | 5    
+CommandLine                    | get                            | 1     | 3    
+CommandLine                    | getArgList                     | 0     | 3    
+CommandLine                    | getArgs                        | 0     | 3    
+CommandLine                    | getOptionObject                | 1     | 4    
+CommandLine                    | getOptionObject                | 1     | 9    
+CommandLine                    | getOptionProperties            | 1     | 9    
+CommandLine                    | getOptionProperties            | 1     | 9    
+CommandLine                    | getOptions                     | 0     | 3    
+CommandLine                    | getOptionValue                 | 1     | 3    
+CommandLine                    | getOptionValue                 | 2     | 3    
+CommandLine                    | getOptionValue                 | 2     | 3    
+CommandLine                    | getOptionValue                 | 1     | 4    
+CommandLine                    | getOptionValue                 | 2     | 3    
+CommandLine                    | getOptionValue                 | 2     | 4    
+CommandLine                    | getOptionValue                 | 1     | 4    
+CommandLine                    | getOptionValue                 | 2     | 3    
+CommandLine                    | getOptionValue                 | 2     | 4    
+CommandLine                    | getOptionValue                 | 1     | 3    
+CommandLine                    | getOptionValue                 | 2     | 3    
+CommandLine                    | getOptionValue                 | 2     | 3    
+CommandLine                    | getOptionValues                | 1     | 3    
+CommandLine                    | getOptionValues                | 1     | 15   
+CommandLine                    | getOptionValues                | 1     | 6    
+CommandLine                    | getOptionValues                | 1     | 3    
+CommandLine                    | getParsedOptionValue           | 1     | 3    
+CommandLine                    | getParsedOptionValue           | 2     | 3    
+CommandLine                    | getParsedOptionValue           | 2     | 3    
+CommandLine                    | getParsedOptionValue           | 1     | 3    
+CommandLine                    | getParsedOptionValue           | 2     | 15   
+CommandLine                    | getParsedOptionValue           | 2     | 3    
+CommandLine                    | getParsedOptionValue           | 1     | 3    
+CommandLine                    | getParsedOptionValue           | 2     | 6    
+CommandLine                    | getParsedOptionValue           | 2     | 3    
+CommandLine                    | getParsedOptionValue           | 1     | 3    
+CommandLine                    | getParsedOptionValue           | 2     | 3    
+CommandLine                    | getParsedOptionValue           | 2     | 3    
+CommandLine                    | getParsedOptionValues          | 1     | 3    
+CommandLine                    | getParsedOptionValues          | 2     | 3    
+CommandLine                    | getParsedOptionValues          | 2     | 3    
+CommandLine                    | getParsedOptionValues          | 1     | 3    
+CommandLine                    | getParsedOptionValues          | 2     | 20   
+CommandLine                    | getParsedOptionValues          | 2     | 3    
+CommandLine                    | getParsedOptionValues          | 1     | 3    
+CommandLine                    | getParsedOptionValues          | 2     | 6    
+CommandLine                    | getParsedOptionValues          | 2     | 3    
+CommandLine                    | getParsedOptionValues          | 1     | 3    
+CommandLine                    | getParsedOptionValues          | 2     | 3    
+CommandLine                    | getParsedOptionValues          | 2     | 3    
+CommandLine                    | handleDeprecated               | 1     | 5    
+CommandLine                    | hasOption                      | 1     | 3    
+CommandLine                    | hasOption                      | 1     | 7    
+CommandLine                    | hasOption                      | 1     | 6    
+CommandLine                    | hasOption                      | 1     | 3    
+CommandLine                    | iterator                       | 0     | 3    
+CommandLine                    | processPropertiesFromValues    | 2     | 9    
+CommandLine                    | resolveOption                  | 1     | 11   
+Builder                        | addArg                         | 1     | 6    
+Builder                        | addOption                      | 1     | 6    
+Builder                        | build                          | 0     | 4    
+Builder                        | get                            | 0     | 4    
+Builder                        | setDeprecatedHandler           | 1     | 4    
+CommandLineParser              | parse                          | 2     | 1    
+CommandLineParser              | parse                          | 3     | 1    
+Converter                      | apply                          | 1     | 1    
+DefaultParser                  | builder                        | 0     | 3    
+DefaultParser                  | indexOfEqual                   | 1     | 3    
+DefaultParser                  | checkRequiredArgs              | 0     | 8    
+DefaultParser                  | checkRequiredOptions           | 0     | 6    
+DefaultParser                  | getLongPrefix                  | 1     | 13   
+DefaultParser                  | getMatchingLongOptions         | 1     | 10   
+DefaultParser                  | handleConcatenatedOptions      | 1     | 15   
+DefaultParser                  | handleLongOption               | 1     | 7    
+DefaultParser                  | handleLongOptionWithEqual      | 1     | 21   
+DefaultParser                  | handleLongOptionWithoutEqual   | 1     | 11   
+DefaultParser                  | handleOption                   | 1     | 8    
+DefaultParser                  | handleProperties               | 1     | 30   
+DefaultParser                  | handleShortAndLongOption       | 1     | 62   
+DefaultParser                  | handleToken                    | 1     | 21   
+DefaultParser                  | handleUnknownToken             | 1     | 9    
+DefaultParser                  | isArgument                     | 1     | 3    
+DefaultParser                  | isJavaProperty                 | 1     | 5    
+DefaultParser                  | isLongOption                   | 1     | 16   
+DefaultParser                  | isNegativeNumber               | 1     | 8    
+DefaultParser                  | isOption                       | 1     | 3    
+DefaultParser                  | isShortOption                  | 1     | 14   
+DefaultParser                  | parse                          | 2     | 4    
+DefaultParser                  | parse                          | 3     | 4    
+DefaultParser                  | parse                          | 3     | 3    
+DefaultParser                  | parse                          | 4     | 24   
+DefaultParser                  | stripLeadingAndTrailingQuotesDefaultOff | 1     | 6    
+DefaultParser                  | stripLeadingAndTrailingQuotesDefaultOn | 1     | 6    
+DefaultParser                  | updateRequiredOptions          | 1     | 16   
+Builder                        | build                          | 0     | 4    
+Builder                        | get                            | 0     | 4    
+Builder                        | setAllowPartialMatching        | 1     | 4    
+Builder                        | setDeprecatedHandler           | 1     | 4    
+Builder                        | setStripLeadingAndTrailingQuotes | 1     | 4    
+DeprecatedAttributes           | builder                        | 0     | 3    
+DeprecatedAttributes           | getDescription                 | 0     | 3    
+DeprecatedAttributes           | getSince                       | 0     | 3    
+DeprecatedAttributes           | isForRemoval                   | 0     | 3    
+DeprecatedAttributes           | toEmpty                        | 1     | 3    
+DeprecatedAttributes           | toString                       | 0     | 16   
+Builder                        | get                            | 0     | 4    
+Builder                        | setDescription                 | 1     | 4    
+Builder                        | setForRemoval                  | 1     | 4    
+Builder                        | setSince                       | 1     | 4    
+GnuParser                      | flatten                        | 3     | 45   
+AbstractHelpFormatter          | getComparator                  | 0     | 3    
+AbstractHelpFormatter          | getHelpAppendable              | 0     | 3    
+AbstractHelpFormatter          | getOptionFormatBuilder         | 0     | 3    
+AbstractHelpFormatter          | getOptionFormatter             | 1     | 3    
+AbstractHelpFormatter          | getOptionGroupSeparator        | 0     | 3    
+AbstractHelpFormatter          | getSerializer                  | 0     | 3    
+AbstractHelpFormatter          | getSyntaxPrefix                | 0     | 3    
+AbstractHelpFormatter          | getTableDefinition             | 1     | 1    
+AbstractHelpFormatter          | printHelp                      | 5     | 18   
+AbstractHelpFormatter          | printHelp                      | 5     | 4    
+AbstractHelpFormatter          | printOptions                   | 1     | 3    
+AbstractHelpFormatter          | printOptions                   | 1     | 3    
+AbstractHelpFormatter          | printOptions                   | 1     | 3    
+AbstractHelpFormatter          | setSyntaxPrefix                | 1     | 3    
+AbstractHelpFormatter          | sort                           | 1     | 8    
+AbstractHelpFormatter          | sort                           | 1     | 3    
+AbstractHelpFormatter          | toArgName                      | 1     | 3    
+AbstractHelpFormatter          | toSyntaxOptions                | 1     | 3    
+AbstractHelpFormatter          | toSyntaxOptions                | 2     | 31   
+AbstractHelpFormatter          | toSyntaxOptions                | 1     | 20   
+AbstractHelpFormatter          | toSyntaxOptions                | 1     | 3    
+Builder                        | asThis                         | 0     | 4    
+Builder                        | getComparator                  | 0     | 3    
+Builder                        | getHelpAppendable              | 0     | 3    
+Builder                        | getOptionFormatBuilder         | 0     | 3    
+Builder                        | getOptionGroupSeparator        | 0     | 3    
+Builder                        | setComparator                  | 1     | 4    
+Builder                        | setHelpAppendable              | 1     | 4    
+Builder                        | setOptionFormatBuilder         | 1     | 4    
+Builder                        | setOptionGroupSeparator        | 1     | 4    
+FilterHelpAppendable           | append                         | 1     | 5    
+FilterHelpAppendable           | append                         | 1     | 5    
+FilterHelpAppendable           | append                         | 3     | 5    
+HelpAppendable                 | appendFormat                   | 2     | 3    
+HelpAppendable                 | appendHeader                   | 2     | 1    
+HelpAppendable                 | appendList                     | 2     | 1    
+HelpAppendable                 | appendParagraph                | 1     | 1    
+HelpAppendable                 | appendParagraphFormat          | 2     | 3    
+HelpAppendable                 | appendTable                    | 1     | 1    
+HelpAppendable                 | appendTitle                    | 1     | 1    
+HelpFormatter                  | builder                        | 0     | 3    
+HelpFormatter                  | getTableDefinition             | 1     | 41   
+Builder                        | get                            | 0     | 4    
+Builder                        | setShowSince                   | 1     | 4    
+OptionFormatter                | builder                        | 0     | 3    
+OptionFormatter                | from                           | 1     | 3    
+OptionFormatter                | getArgName                     | 0     | 3    
+OptionFormatter                | getBothOpt                     | 0     | 10   
+OptionFormatter                | getDescription                 | 0     | 3    
+OptionFormatter                | getLongOpt                     | 0     | 3    
+OptionFormatter                | getOpt                         | 0     | 3    
+OptionFormatter                | getSince                       | 0     | 3    
+OptionFormatter                | isRequired                     | 0     | 3    
+OptionFormatter                | toOptional                     | 1     | 6    
+OptionFormatter                | toSyntaxOption                 | 0     | 3    
+OptionFormatter                | toSyntaxOption                 | 1     | 3    
+Builder                        | build                          | 1     | 3    
+Builder                        | get                            | 0     | 5    
+Builder                        | setArgumentNameDelimiters      | 2     | 5    
+Builder                        | setDefaultArgName              | 1     | 4    
+Builder                        | setDeprecatedFormatFunction    | 1     | 4    
+Builder                        | setLongOptPrefix               | 1     | 4    
+Builder                        | setOptArgSeparator             | 1     | 4    
+Builder                        | setOptionalDelimiters          | 2     | 5    
+Builder                        | setOptPrefix                   | 1     | 4    
+Builder                        | setOptSeparator                | 1     | 4    
+Builder                        | setSyntaxFormatFunction        | 1     | 4    
+Builder                        | toArgName                      | 1     | 3    
+TableDefinition                | from                           | 4     | 24   
+TableDefinition                | caption                        | 0     | 1    
+TableDefinition                | columnTextStyles               | 0     | 1    
+TableDefinition                | headers                        | 0     | 1    
+TableDefinition                | rows                           | 0     | 1    
+TextHelpAppendable             | indexOfWrap                    | 3     | 25   
+TextHelpAppendable             | systemOut                      | 0     | 3    
+TextHelpAppendable             | adjustTableFormat              | 1     | 51   
+TextHelpAppendable             | appendHeader                   | 2     | 15   
+TextHelpAppendable             | appendList                     | 2     | 14   
+TextHelpAppendable             | appendParagraph                | 1     | 8    
+TextHelpAppendable             | appendTable                    | 1     | 15   
+TextHelpAppendable             | appendTitle                    | 1     | 10   
+TextHelpAppendable             | getIndent                      | 0     | 3    
+TextHelpAppendable             | getLeftPad                     | 0     | 3    
+TextHelpAppendable             | getMaxWidth                    | 0     | 3    
+TextHelpAppendable             | getTextStyleBuilder            | 0     | 3    
+TextHelpAppendable             | makeColumnQueue                | 2     | 17   
+TextHelpAppendable             | makeColumnQueues               | 2     | 7    
+TextHelpAppendable             | printQueue                     | 1     | 5    
+TextHelpAppendable             | printWrapped                   | 1     | 3    
+TextHelpAppendable             | printWrapped                   | 2     | 3    
+TextHelpAppendable             | resize                         | 2     | 3    
+TextHelpAppendable             | resize                         | 2     | 11   
+TextHelpAppendable             | setIndent                      | 1     | 3    
+TextHelpAppendable             | setLeftPad                     | 1     | 3    
+TextHelpAppendable             | setMaxWidth                    | 1     | 3    
+TextHelpAppendable             | writeColumnQueues              | 2     | 20   
+TextStyle                      | builder                        | 0     | 3    
+TextStyle                      | getAlignment                   | 0     | 3    
+TextStyle                      | getIndent                      | 0     | 3    
+TextStyle                      | getLeftPad                     | 0     | 3    
+TextStyle                      | getMaxWidth                    | 0     | 3    
+TextStyle                      | getMinWidth                    | 0     | 3    
+TextStyle                      | isScalable                     | 0     | 3    
+TextStyle                      | pad                            | 2     | 46   
+TextStyle                      | toString                       | 0     | 5    
+Builder                        | get                            | 0     | 4    
+Builder                        | getIndent                      | 0     | 3    
+Builder                        | getLeftPad                     | 0     | 3    
+Builder                        | getMaxWidth                    | 0     | 3    
+Builder                        | getMinWidth                    | 0     | 3    
+Builder                        | isScalable                     | 0     | 3    
+Builder                        | setAlignment                   | 1     | 4    
+Builder                        | setIndent                      | 1     | 4    
+Builder                        | setLeftPad                     | 1     | 4    
+Builder                        | setMaxWidth                    | 1     | 4    
+Builder                        | setMinWidth                    | 1     | 4    
+Builder                        | setScalable                    | 1     | 4    
+Builder                        | setTextStyle                   | 1     | 9    
+Util                           | defaultValue                   | 2     | 3    
+Util                           | indexOfNonWhitespace           | 2     | 11   
+Util                           | isEmpty                        | 1     | 3    
+Util                           | isWhitespace                   | 1     | 3    
+Util                           | ltrim                          | 1     | 4    
+Util                           | repeat                         | 2     | 5    
+Util                           | repeatSpace                    | 1     | 3    
+Util                           | rtrim                          | 1     | 10   
+HelpFormatter                  | builder                        | 0     | 3    
+HelpFormatter                  | createDefaultPrintWriter       | 0     | 3    
+HelpFormatter                  | getDescription                 | 1     | 4    
+HelpFormatter                  | appendOption                   | 3     | 19   
+HelpFormatter                  | appendOptionGroup              | 2     | 21   
+HelpFormatter                  | appendOptions                  | 5     | 72   
+HelpFormatter                  | appendWrappedText              | 4     | 28   
+HelpFormatter                  | createPadding                  | 1     | 5    
+HelpFormatter                  | determineMaxSinceLength        | 1     | 5    
+HelpFormatter                  | findWrapPos                    | 3     | 28   
+HelpFormatter                  | getArgName                     | 0     | 3    
+HelpFormatter                  | getDescPadding                 | 0     | 3    
+HelpFormatter                  | getLeftPadding                 | 0     | 3    
+HelpFormatter                  | getLongOptPrefix               | 0     | 3    
+HelpFormatter                  | getLongOptSeparator            | 0     | 3    
+HelpFormatter                  | getNewLine                     | 0     | 3    
+HelpFormatter                  | getOptionComparator            | 0     | 3    
+HelpFormatter                  | getOptPrefix                   | 0     | 3    
+HelpFormatter                  | getSyntaxPrefix                | 0     | 3    
+HelpFormatter                  | getWidth                       | 0     | 3    
+HelpFormatter                  | printHelp                      | 5     | 3    
+HelpFormatter                  | printHelp                      | 6     | 6    
+HelpFormatter                  | printHelp                      | 8     | 4    
+HelpFormatter                  | printHelp                      | 9     | 18   
+HelpFormatter                  | printHelp                      | 2     | 3    
+HelpFormatter                  | printHelp                      | 3     | 3    
+HelpFormatter                  | printHelp                      | 4     | 3    
+HelpFormatter                  | printHelp                      | 5     | 3    
+HelpFormatter                  | printOptions                   | 5     | 8    
+HelpFormatter                  | printUsage                     | 3     | 4    
+HelpFormatter                  | printUsage                     | 4     | 39   
+HelpFormatter                  | printWrapped                   | 4     | 3    
+HelpFormatter                  | printWrapped                   | 3     | 3    
+HelpFormatter                  | renderOptions                  | 5     | 8    
+HelpFormatter                  | renderWrappedText              | 4     | 8    
+HelpFormatter                  | renderWrappedTextBlock         | 4     | 18   
+HelpFormatter                  | rtrim                          | 1     | 10   
+HelpFormatter                  | setArgName                     | 1     | 3    
+HelpFormatter                  | setDescPadding                 | 1     | 3    
+HelpFormatter                  | setLeftPadding                 | 1     | 3    
+HelpFormatter                  | setLongOptPrefix               | 1     | 3    
+HelpFormatter                  | setLongOptSeparator            | 1     | 3    
+HelpFormatter                  | setNewLine                     | 1     | 3    
+HelpFormatter                  | setOptionComparator            | 1     | 3    
+HelpFormatter                  | setOptPrefix                   | 1     | 3    
+HelpFormatter                  | setSyntaxPrefix                | 1     | 3    
+HelpFormatter                  | setWidth                       | 1     | 3    
+Builder                        | get                            | 0     | 4    
+Builder                        | setPrintWriter                 | 1     | 4    
+Builder                        | setShowDeprecated              | 1     | 3    
+Builder                        | setShowDeprecated              | 1     | 4    
+Builder                        | setShowSince                   | 1     | 4    
+OptionComparator               | compare                        | 2     | 4    
+MissingArgumentException       | getOption                      | 0     | 3    
+MissingOptionException         | createMessage                  | 1     | 15   
+MissingOptionException         | getMissingOptions              | 0     | 3    
+Option                         | builder                        | 0     | 3    
+Option                         | builder                        | 1     | 3    
+Option                         | acceptsArg                     | 0     | 3    
+Option                         | add                            | 1     | 7    
+Option                         | addValue                       | 1     | 5    
+Option                         | clearValues                    | 0     | 3    
+Option                         | clone                          | 0     | 10   
+Option                         | equals                         | 1     | 11   
+Option                         | getArgName                     | 0     | 3    
+Option                         | getArgs                        | 0     | 3    
+Option                         | getConverter                   | 0     | 3    
+Option                         | getDeprecated                  | 0     | 3    
+Option                         | getDescription                 | 0     | 3    
+Option                         | getId                          | 0     | 3    
+Option                         | getKey                         | 0     | 4    
+Option                         | getLongOpt                     | 0     | 3    
+Option                         | getOpt                         | 0     | 3    
+Option                         | getSince                       | 0     | 3    
+Option                         | getType                        | 0     | 3    
+Option                         | getValue                       | 0     | 3    
+Option                         | getValue                       | 1     | 3    
+Option                         | getValue                       | 1     | 4    
+Option                         | getValues                      | 0     | 3    
+Option                         | getValueSeparator              | 0     | 3    
+Option                         | getValuesList                  | 0     | 3    
+Option                         | hasArg                         | 0     | 3    
+Option                         | hasArgName                     | 0     | 3    
+Option                         | hasArgs                        | 0     | 3    
+Option                         | hashCode                       | 0     | 4    
+Option                         | hasLongOpt                     | 0     | 3    
+Option                         | hasNoValues                    | 0     | 3    
+Option                         | hasOptionalArg                 | 0     | 3    
+Option                         | hasValueSeparator              | 0     | 3    
+Option                         | isDeprecated                   | 0     | 3    
+Option                         | isRequired                     | 0     | 3    
+Option                         | processValue                   | 1     | 28   
+Option                         | requiresArg                    | 0     | 9    
+Option                         | setArgName                     | 1     | 3    
+Option                         | setArgs                        | 1     | 3    
+Option                         | setConverter                   | 1     | 3    
+Option                         | setDescription                 | 1     | 3    
+Option                         | setLongOpt                     | 1     | 3    
+Option                         | setOptionalArg                 | 1     | 3    
+Option                         | setRequired                    | 1     | 3    
+Option                         | setType                        | 1     | 3    
+Option                         | setType                        | 1     | 4    
+Option                         | setValueSeparator              | 1     | 3    
+Option                         | toDeprecatedString             | 0     | 16   
+Option                         | toString                       | 0     | 26   
+Builder                        | toType                         | 1     | 3    
+Builder                        | argName                        | 1     | 4    
+Builder                        | build                          | 0     | 6    
+Builder                        | converter                      | 1     | 4    
+Builder                        | deprecated                     | 0     | 3    
+Builder                        | deprecated                     | 1     | 4    
+Builder                        | desc                           | 1     | 4    
+Builder                        | hasArg                         | 0     | 3    
+Builder                        | hasArg                         | 1     | 5    
+Builder                        | hasArgs                        | 0     | 4    
+Builder                        | longOpt                        | 1     | 4    
+Builder                        | numberOfArgs                   | 1     | 4    
+Builder                        | option                         | 1     | 4    
+Builder                        | optionalArg                    | 1     | 7    
+Builder                        | required                       | 0     | 3    
+Builder                        | required                       | 1     | 4    
+Builder                        | since                          | 1     | 4    
+Builder                        | type                           | 1     | 4    
+Builder                        | valueSeparator                 | 0     | 3    
+Builder                        | valueSeparator                 | 1     | 4    
+OptionBuilder                  | create                         | 0     | 8    
+OptionBuilder                  | create                         | 1     | 3    
+OptionBuilder                  | create                         | 1     | 23   
+OptionBuilder                  | hasArg                         | 0     | 4    
+OptionBuilder                  | hasArg                         | 1     | 4    
+OptionBuilder                  | hasArgs                        | 0     | 4    
+OptionBuilder                  | hasArgs                        | 1     | 4    
+OptionBuilder                  | hasOptionalArg                 | 0     | 5    
+OptionBuilder                  | hasOptionalArgs                | 0     | 5    
+OptionBuilder                  | hasOptionalArgs                | 1     | 5    
+OptionBuilder                  | isRequired                     | 0     | 4    
+OptionBuilder                  | isRequired                     | 1     | 4    
+OptionBuilder                  | reset                          | 0     | 10   
+OptionBuilder                  | withArgName                    | 1     | 4    
+OptionBuilder                  | withDescription                | 1     | 4    
+OptionBuilder                  | withLongOpt                    | 1     | 4    
+OptionBuilder                  | withType                       | 1     | 4    
+OptionBuilder                  | withType                       | 1     | 4    
+OptionBuilder                  | withValueSeparator             | 0     | 4    
+OptionBuilder                  | withValueSeparator             | 1     | 4    
+OptionGroup                    | addOption                      | 1     | 6    
+OptionGroup                    | getNames                       | 0     | 4    
+OptionGroup                    | getOptions                     | 0     | 4    
+OptionGroup                    | getSelected                    | 0     | 3    
+OptionGroup                    | isRequired                     | 0     | 3    
+OptionGroup                    | isSelected                     | 0     | 3    
+OptionGroup                    | setRequired                    | 1     | 3    
+OptionGroup                    | setSelected                    | 1     | 14   
+OptionGroup                    | toString                       | 0     | 27   
+Options                        | addOption                      | 1     | 16   
+Options                        | addOption                      | 3     | 4    
+Options                        | addOption                      | 2     | 4    
+Options                        | addOption                      | 4     | 4    
+Options                        | addOptionGroup                 | 1     | 14   
+Options                        | addOptions                     | 1     | 10   
+Options                        | addRequiredOption              | 4     | 6    
+Options                        | getMatchingOptions             | 1     | 14   
+Options                        | getOption                      | 1     | 5    
+Options                        | getOptionGroup                 | 1     | 3    
+Options                        | getOptionGroups                | 0     | 8    
+Options                        | getOptions                     | 0     | 3    
+Options                        | getRequiredOptions             | 0     | 3    
+Options                        | hasLongOption                  | 1     | 3    
+Options                        | hasOption                      | 1     | 4    
+Options                        | hasShortOption                 | 1     | 4    
+Options                        | helpOptions                    | 0     | 3    
+Options                        | toString                       | 0     | 10   
+OptionValidator                | isValidChar                    | 1     | 3    
+OptionValidator                | isValidOpt                     | 1     | 3    
+OptionValidator                | search                         | 2     | 8    
+OptionValidator                | validate                       | 1     | 24   
+ParseException                 | wrap                           | 1     | 10   
+Parser                         | checkRequiredOptions           | 0     | 6    
+Parser                         | flatten                        | 3     | 1    
+Parser                         | getOptions                     | 0     | 3    
+Parser                         | getRequiredOptions             | 0     | 3    
+Parser                         | parse                          | 2     | 4    
+Parser                         | parse                          | 3     | 4    
+Parser                         | parse                          | 3     | 3    
+Parser                         | parse                          | 4     | 61   
+Parser                         | processArgs                    | 2     | 21   
+Parser                         | processOption                  | 2     | 17   
+Parser                         | processProperties              | 1     | 34   
+Parser                         | setOptions                     | 1     | 4    
+Parser                         | updateRequiredOptions          | 1     | 16   
+PatternOptionBuilder           | getValueClass                  | 1     | 4    
+PatternOptionBuilder           | getValueType                   | 1     | 24   
+PatternOptionBuilder           | isValueCode                    | 1     | 3    
+PatternOptionBuilder           | parsePattern                   | 1     | 51   
+PatternOptionBuilder           | unsupported                    | 0     | 4    
+PosixParser                    | burstToken                     | 2     | 22   
+PosixParser                    | flatten                        | 3     | 56   
+PosixParser                    | gobble                         | 1     | 7    
+PosixParser                    | init                           | 0     | 4    
+PosixParser                    | processNonOptionToken          | 2     | 8    
+PosixParser                    | processOptionToken             | 2     | 11   
+TypeHandler                    | createClass                    | 1     | 3    
+TypeHandler                    | createDate                     | 1     | 3    
+TypeHandler                    | createDefaultMap               | 0     | 3    
+TypeHandler                    | createFile                     | 1     | 3    
+TypeHandler                    | createFiles                    | 1     | 6    
+TypeHandler                    | createNumber                   | 1     | 4    
+TypeHandler                    | createObject                   | 1     | 4    
+TypeHandler                    | createURL                      | 1     | 3    
+TypeHandler                    | createValue                    | 2     | 7    
+TypeHandler                    | createValue                    | 2     | 4    
+TypeHandler                    | createValueUnchecked           | 2     | 7    
+TypeHandler                    | getDefault                     | 0     | 3    
+TypeHandler                    | openFile                       | 1     | 4    
+TypeHandler                    | putDefaultMap                  | 1     | 20   
+TypeHandler                    | getConverter                   | 1     | 4    
+UnrecognizedOptionException    | getOption                      | 0     | 3    
+Util                           | isEmpty                        | 1     | 3    
+Util                           | isEmpty                        | 1     | 3    
+Util                           | stripLeadingAndTrailingQuotes  | 1     | 10   
+Util                           | stripLeadingHyphens            | 1     | 12   
+
+================== 分析项目: commons-math ==================
+
+ClusterAlgorithmComparison     | makeCircles                    | 5     | 28   
+ClusterAlgorithmComparison     | makeMoons                      | 4     | 29   
+ClusterAlgorithmComparison     | makeBlobs                      | 7     | 36   
+ClusterAlgorithmComparison     | makeRandom                     | 1     | 14   
+ClusterAlgorithmComparison     | generateNoiseVector            | 1     | 3    
+ClusterAlgorithmComparison     | normalize                      | 5     | 16   
+ClusterAlgorithmComparison     | main                           | 1     | 3    
+ClusterPlot                    | paintComponent                 | 1     | 36   
+ClusterPlot                    | getPreferredSize               | 0     | 4    
+ClusterPlot                    | transform                      | 3     | 5    
+ExampleUtils                   | showExampleFrame               | 1     | 42   
+ExampleUtils                   | getScreenShot                  | 1     | 6    
+ExampleUtils                   | resizeImage                    | 4     | 7    
+ExampleFrame                   | getMainPanel                   | 0     | 3    
+CannonballExample              | cannonballTest                 | 1     | 137  
+CannonballExample              | createChart                    | 2     | 20   
+CannonballExample              | createComponent                | 0     | 11   
+CannonballExample              | main                           | 1     | 3    
+Cannonball                     | getX                           | 0     | 3    
+Cannonball                     | getY                           | 0     | 3    
+Cannonball                     | getMeasuredX                   | 0     | 3    
+Cannonball                     | getMeasuredY                   | 0     | 3    
+Cannonball                     | getXVelocity                   | 0     | 3    
+Cannonball                     | getYVelocity                   | 0     | 3    
+Cannonball                     | step                           | 0     | 20   
+Display                        | getMainPanel                   | 0     | 4    
+ConstantVoltageExample         | constantVoltageTest            | 2     | 83   
+ConstantVoltageExample         | createChart                    | 5     | 21   
+ConstantVoltageExample         | createComponent                | 0     | 15   
+ConstantVoltageExample         | main                           | 1     | 3    
+VoltMeter                      | getVoltage                     | 0     | 3    
+VoltMeter                      | getMeasuredVoltage             | 0     | 3    
+VoltMeter                      | step                           | 0     | 4    
+Display                        | getMainPanel                   | 0     | 4    
+HelloWorldExample              | main                           | 1     | 47   
+HelloWorldExample              | randomRepresentation           | 1     | 3    
+HelloWorldExample              | asList                         | 1     | 3    
+HelloWorldExample              | getInitialPopulation           | 0     | 8    
+StringChromosome               | fitness                        | 0     | 11   
+StringChromosome               | checkValidity                  | 1     | 8    
+StringChromosome               | getStringRepresentation        | 0     | 3    
+StringChromosome               | newFixedLengthChromosome       | 1     | 4    
+StringChromosome               | toString                       | 0     | 8    
+RandomCharacterMutation        | mutate                         | 1     | 16   
+ImageEvolutionExample          | main                           | 1     | 3    
+ImageEvolutionExample          | resizeImage                    | 4     | 7    
+ImageEvolutionExample          | getInitialPopulation           | 0     | 7    
+Display                        | isAlive                        | 0     | 3    
+Display                        | stopRequest                    | 0     | 5    
+Display                        | startEvolution                 | 0     | 19   
+ImagePainter                   | getPreferredSize               | 0     | 3    
+ImagePainter                   | getMinimumSize                 | 0     | 4    
+ImagePainter                   | getMaximumSize                 | 0     | 4    
+ImagePainter                   | paint                          | 1     | 4    
+Polygon                        | randomPolygon                  | 1     | 22   
+Polygon                        | mutate                         | 2     | 19   
+Polygon                        | draw                           | 3     | 14   
+PolygonChromosome              | setRefImage                    | 1     | 3    
+PolygonChromosome              | setTestImage                   | 1     | 3    
+PolygonChromosome              | checkValidity                  | 1     | 4    
+PolygonChromosome              | newFixedLengthChromosome       | 1     | 4    
+PolygonChromosome              | getPolygonRepresentation       | 0     | 3    
+PolygonChromosome              | fitness                        | 0     | 30   
+PolygonChromosome              | draw                           | 3     | 12   
+PolygonChromosome              | toString                       | 0     | 4    
+PolygonChromosome              | randomChromosome               | 2     | 7    
+RandomPolygonMutation          | mutate                         | 1     | 14   
+JdkMathTestPerformance         | main                           | 1     | 32   
+JdkMathTestPerformance         | report                         | 4     | 10   
+JdkMathTestPerformance         | assertTrue                     | 1     | 6    
+JdkMathTestPerformance         | testLog                        | 0     | 25   
+JdkMathTestPerformance         | testLog10                      | 0     | 25   
+JdkMathTestPerformance         | testLog1p                      | 0     | 25   
+JdkMathTestPerformance         | testPow                        | 0     | 24   
+JdkMathTestPerformance         | testExp                        | 0     | 25   
+JdkMathTestPerformance         | testSin                        | 0     | 25   
+JdkMathTestPerformance         | testAsin                       | 0     | 25   
+JdkMathTestPerformance         | testCos                        | 0     | 25   
+JdkMathTestPerformance         | testAcos                       | 0     | 24   
+JdkMathTestPerformance         | testTan                        | 0     | 25   
+JdkMathTestPerformance         | testAtan                       | 0     | 25   
+JdkMathTestPerformance         | testAtan2                      | 0     | 32   
+JdkMathTestPerformance         | testHypot                      | 0     | 32   
+JdkMathTestPerformance         | testIEEEremainder              | 0     | 32   
+JdkMathTestPerformance         | testCbrt                       | 0     | 25   
+JdkMathTestPerformance         | testCosh                       | 0     | 25   
+JdkMathTestPerformance         | testSinh                       | 0     | 25   
+JdkMathTestPerformance         | testTanh                       | 0     | 25   
+JdkMathTestPerformance         | testExpm1                      | 0     | 24   
+JdkMathTestPerformance         | testAbs                        | 0     | 25   
+JdkMathTestPerformance         | testSimpleBenchmark            | 0     | 494  
+LowDiscrepancyGeneratorComparison | makeCircle                     | 2     | 22   
+LowDiscrepancyGeneratorComparison | makeRandom                     | 2     | 10   
+LowDiscrepancyGeneratorComparison | normalize                      | 1     | 32   
+LowDiscrepancyGeneratorComparison | main                           | 1     | 3    
+Plot                           | paintComponent                 | 1     | 21   
+Plot                           | getPreferredSize               | 0     | 4    
+Plot                           | transform                      | 3     | 5    
+PerfTestUtils                  | time                           | 4     | 22   
+PerfTestUtils                  | timesAndResults                | 4     | 53   
+PerfTestUtils                  | timeAndReport                  | 6     | 68   
+PerfTestUtils                  | timeAndReport                  | 2     | 9    
+PerfTestUtils                  | truncate                       | 3     | 16   
+PerfTestUtils                  | shorten                        | 2     | 13   
+PerfTestUtils                  | shortenPackageName             | 2     | 17   
+RunTest                        | getName                        | 0     | 3    
+RunTest                        | call                           | 0     | 2    
+
+类依赖图（生成 dot 文件）
+
+================== 分析项目: commons-cli ==================
+
+
+================== 分析项目: commons-math ==================
+
+已生成带聚类的类依赖关系图：dependency.dot
+
+代码度量（圈复杂度 & 注释率）
+
+================== 分析项目: commons-cli ==================
+
+类名                                       | 圈复杂度       | 注释率%      
+----------------------------------------------------------
+AlreadySelectedException                 | 2          | 39.02     
+AmbiguousOptionException                 | 4          | 32.93     
+BasicParser                              | 1          | 45.61     
+Char                                     | 0          | 21.74     
+CommandLine                              | 99         | 57.14     
+CommandLineParser                        | 2          | 67.47     
+Converter                                | 1          | 46.07     
+DefaultParser                            | 118        | 43.60     
+DeprecatedAttributes                     | 13         | 44.39     
+GnuParser                                | 12         | 31.63     
+AbstractHelpFormatter                    | 41         | 49.49     
+FilterHelpAppendable                     | 3          | 36.11     
+HelpAppendable                           | 7          | 63.93     
+HelpFormatter                            | 8          | 50.26     
+OptionFormatter                          | 27         | 43.96     
+package-info                             | 0          | 47.06     
+TableDefinition                          | 9          | 46.08     
+TextHelpAppendable                       | 57         | 34.92     
+TextStyle                                | 32         | 44.44     
+Util                                     | 16         | 43.38     
+HelpFormatter                            | 111        | 48.67     
+MissingArgumentException                 | 1          | 39.34     
+MissingOptionException                   | 4          | 33.33     
+Option                                   | 96         | 50.74     
+OptionBuilder                            | 21         | 49.12     
+OptionGroup                              | 16         | 39.77     
+Options                                  | 29         | 51.02     
+OptionValidator                          | 14         | 54.35     
+package-info                             | 0          | 14.29     
+ParseException                           | 3          | 40.00     
+Parser                                   | 49         | 41.00     
+PatternOptionBuilder                     | 28         | 42.68     
+PosixParser                              | 32         | 40.57     
+TypeHandler                              | 15         | 53.19     
+UnrecognizedOptionException              | 1          | 39.68     
+Util                                     | 14         | 34.83     
+
+================== 分析项目: commons-math ==================
+
+类名                                       | 圈复杂度       | 注释率%      
+----------------------------------------------------------
+ClusterAlgorithmComparison               | 26         | 1.90      
+ExampleUtils                             | 10         | 8.85      
+CannonballExample                        | 16         | 11.15     
+ConstantVoltageExample                   | 9          | 7.50      
+HelloWorldExample                        | 24         | 6.99      
+ImageEvolutionExample                    | 17         | 11.89     
+Polygon                                  | 9          | 30.08     
+PolygonChromosome                        | 14         | 14.18     
+RandomPolygonMutation                    | 3          | 0.00      
+JdkMathTestPerformance                   | 154        | 2.62      
+LowDiscrepancyGeneratorComparison        | 16         | 3.20      
+PerfTestUtils                            | 25         | 34.63     
+
+所有分析已完成！
