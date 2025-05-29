@@ -41,6 +41,7 @@ project_analyzer/
 
 ```bash
 mvn clean install
+cd project_analyzer
 ```
 
 编译所有文件
